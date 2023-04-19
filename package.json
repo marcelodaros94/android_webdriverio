@@ -1,0 +1,19 @@
+{
+  "name": "my-new-project",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/browser-runner": "^8.8.5",
+    "@wdio/cli": "^8.8.4",
+    "@wdio/mocha-framework": "^8.8.4",
+    "@wdio/spec-reporter": "^8.8.4",
+    "appium": "^1.22.3",
+    "chromedriver": "^112.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "@wdio/appium-service": "^8.8.4"
+  }
+}
